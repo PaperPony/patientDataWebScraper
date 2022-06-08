@@ -1,0 +1,23 @@
+{
+  "name": "patientdatawebscraper",
+  "version": "1.0.0",
+  "description": "This application was a web scraper designed to extract patient information from a doctor or nurse's patient list on a website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperPony/patientDataWebScraper.git"
+  },
+  "author": "Dominick Varano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaperPony/patientDataWebScraper/issues"
+  },
+  "homepage": "https://github.com/PaperPony/patientDataWebScraper#readme",
+  "dependencies": {
+    "objects-to-csv": "^1.3.6",
+    "puppeteer": "^14.3.0"
+  }
+}
